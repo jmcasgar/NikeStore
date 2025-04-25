@@ -1,101 +1,93 @@
-# Nike Store 🏪👟
 
-![Nike Store](https://img.shields.io/badge/Nike%20Store-v1.0-blue.svg)
-[![Releases](https://img.shields.io/badge/Check%20Releases-brightgreen.svg)](https://github.com/beanpoky/nike-store/releases)
+# Tienda Nike 🏪👟
 
-Welcome to the Nike Store repository! This project is a modern Android e-commerce app designed specifically for Nike shoes. Built using Kotlin, Jetpack Compose, and the MVVM architecture, this app provides a seamless shopping experience. 
+¡Bienvenido al repositorio de la Tienda Nike! Este proyecto es una aplicación moderna de comercio electrónico para Android diseñada específicamente para zapatillas Nike. Desarrollada con Kotlin, Jetpack Compose y la arquitectura MVVM, esta app ofrece una experiencia de compra fluida.
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
 
-## Features
+## Características
 
-- **User-Friendly Interface**: The app utilizes Material Design principles to ensure an intuitive user experience.
-- **Bilingual Support**: The app supports multiple languages, making it accessible to a wider audience.
-- **Dark Theme**: Users can switch to a dark theme for a comfortable viewing experience.
-- **Image Loading with Coil**: Efficient image loading for high-quality product images.
-- **Data Storage**: Utilizes Room Database and DataStore for local data management.
-- **Networking with Retrofit**: Handles API calls seamlessly for real-time product updates.
-- **Dependency Injection with Koin**: Simplifies dependency management within the app.
-- **MVVM Architecture**: Promotes a clean separation of concerns, making the codebase easier to maintain.
+- **Interfaz Amigable**: La aplicación utiliza principios de Material Design para garantizar una experiencia intuitiva.
+- **Soporte Bilingüe**: La app soporta múltiples idiomas, haciéndola accesible a una audiencia más amplia.
+- **Tema Oscuro**: Los usuarios pueden cambiar al tema oscuro para una visualización más cómoda.
+- **Carga de Imágenes con Coil**: Carga eficiente de imágenes para productos de alta calidad.
+- **Almacenamiento de Datos**: Utiliza Room Database y DataStore para la gestión local de datos.
+- **Conexión a Internet con Retrofit**: Maneja llamadas a API de manera fluida para actualizaciones de productos en tiempo real.
+- **Inyección de Dependencias con Koin**: Facilita la gestión de dependencias dentro de la app.
+- **Arquitectura MVVM**: Promueve una separación clara de responsabilidades, haciendo el código más mantenible.
 
-## Technologies Used
+## Tecnologías Utilizadas
 
-- **Kotlin**: The primary programming language for Android development.
-- **Jetpack Compose**: A modern toolkit for building native UI.
-- **MVVM**: A design pattern that enhances code maintainability.
-- **Room Database**: A persistence library for SQLite database management.
-- **DataStore**: A data storage solution that is easy to use and efficient.
-- **Retrofit**: A type-safe HTTP client for Android and Java.
-- **Coil**: An image loading library for Android.
-- **Koin**: A lightweight dependency injection framework.
+- **Kotlin**: Lenguaje de programación principal para el desarrollo Android.
+- **Jetpack Compose**: Herramienta moderna para construir interfaces nativas.
+- **MVVM**: Patrón de diseño que mejora el mantenimiento del código.
+- **Room Database**: Librería de persistencia para la gestión de bases de datos SQLite.
+- **DataStore**: Solución de almacenamiento de datos eficiente y fácil de usar.
+- **Retrofit**: Cliente HTTP seguro y adaptable para Android y Java.
+- **Coil**: Librería para la carga de imágenes en Android.
+- **Koin**: Framework ligero para la inyección de dependencias.
 
-## Installation
+## Instalación
 
-To get started with the Nike Store app, follow these steps:
+Para comenzar con la aplicación Tienda Nike, sigue estos pasos:
 
-1. **Clone the Repository**:
+1. **Clona el Repositorio**:
    ```bash
    git clone https://github.com/beanpoky/nike-store.git
    ```
 
-2. **Open in Android Studio**:
-   Open the project in Android Studio.
+2. **Ábrelo en Android Studio**:
+   Abre el proyecto en Android Studio.
 
-3. **Sync Gradle**:
-   Make sure to sync your Gradle files to download all necessary dependencies.
+3. **Sincroniza Gradle**:
+   Asegúrate de sincronizar los archivos de Gradle para descargar todas las dependencias necesarias.
 
-4. **Run the App**:
-   Connect your Android device or start an emulator, then run the app.
+4. **Ejecuta la App**:
+   Conecta tu dispositivo Android o inicia un emulador, luego ejecuta la aplicación.
 
-5. **Download Releases**:
-   For the latest updates, check the [Releases](https://github.com/beanpoky/nike-store/releases) section. You can download the APK file and install it on your device.
+5. **Descarga las Versiones**:
+   Para las últimas actualizaciones, puedes descargar el archivo APK e instalarlo en tu dispositivo.
 
-## Usage
+## Uso
 
-Once the app is installed, you can:
+Una vez instalada la app, podrás:
 
-- Browse a wide selection of Nike shoes.
-- View product details, including images and prices.
-- Add items to your cart and proceed to checkout.
-- Switch between languages and themes in the settings.
+- Navegar por una amplia selección de zapatillas Nike.
+- Ver detalles de los productos, incluyendo imágenes y precios.
+- Agregar artículos al carrito y proceder al pago.
+- Cambiar entre idiomas y temas en la configuración.
 
-## Contributing
+## Contribuciones
 
-We welcome contributions! If you would like to contribute to the Nike Store app, please follow these guidelines:
+¡Las contribuciones son bienvenidas! Si deseas contribuir a la app Tienda Nike, sigue estas pautas:
 
-1. **Fork the Repository**: Create your own fork of the project.
-2. **Create a Branch**: Make your changes in a new branch.
+1. **Haz un Fork del Repositorio**: Crea una copia propia del proyecto.
+2. **Crea una Rama**: Realiza tus cambios en una nueva rama.
    ```bash
-   git checkout -b feature/YourFeature
+   git checkout -b feature/TuFuncionalidad
    ```
-3. **Commit Your Changes**: Make sure to write clear commit messages.
+3. **Haz Commit de tus Cambios**: Asegúrate de escribir mensajes de commit claros.
    ```bash
-   git commit -m "Add feature"
+   git commit -m "Agregar funcionalidad"
    ```
-4. **Push to Your Fork**: Push your changes back to your fork.
+4. **Haz Push a tu Fork**: Sube tus cambios a tu repositorio.
    ```bash
-   git push origin feature/YourFeature
+   git push origin feature/TuFuncionalidad
    ```
-5. **Create a Pull Request**: Submit a pull request to the main repository.
+5. **Crea un Pull Request**: Envía una solicitud para integrar tus cambios al repositorio principal.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-## Contact
+Gracias por visitar el repositorio de la Tienda Nike. Esperamos que disfrutes construyendo y usando esta aplicación. ¡Feliz programación!
 
-For any questions or feedback, feel free to reach out:
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [beanpoky](https://github.com/beanpoky)
-
-Thank you for checking out the Nike Store repository! We hope you enjoy building and using this app. For the latest updates, don't forget to visit the [Releases](https://github.com/beanpoky/nike-store/releases) section. Happy coding!
+---
