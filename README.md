@@ -41,7 +41,7 @@ Para comenzar con la aplicación Tienda Nike, sigue estos pasos:
 
 1. **Clona el Repositorio**:
    ```bash
-   git clone https://github.com/beanpoky/nike-store.git
+   git clone https://github.com/jmcasgar/NikeStore.git
    ```
 
 2. **Ábrelo en Android Studio**:
